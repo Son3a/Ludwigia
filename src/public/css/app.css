@@ -1,14 +1,81 @@
-.test b {
-  color: #2d6a56;
-  margin-left: 3%;
-  font-family: Arialle; }
+.infor {
+  position: relative;
+  left: 100px;
+  background-color: red; }
 
-.main-search-input-item input {
-  float: left;
-  width: 30%;
-  height: 40px;
-  padding: 0px 40px 0px 40px;
-  border-radius: 50px;
-  margin-left: 7%;
+h1 {
+  position: absolute;
+  top: 0px;
+  font-family: 'Gagalin';
+  color: #2d6a56;
+  font-size: 200px; }
+
+b {
+  position: absolute;
+  font-family: 'Arial';
+  color: #2d6a56;
+  top: 380px;
+  left: 70px;
+  font-size: 20px; }
+
+.search_div {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  background-color: red; }
+
+.link_div {
+  position: absolute; }
+
+.search-input {
+  position: absolute;
+  border-style: solid;
+  width: 400px;
+  height: 20px;
+  display: block;
+  border-radius: 25px;
+  font-size: 13px;
+  padding: 13px 45px 13px 25px;
   border-width: 6px;
+  font-size: 17px;
   border-color: #2d6a56; }
+
+.search-input:focus {
+  outline: none; }
+
+.search-button {
+  position: inherit;
+  top: -45px;
+  left: 55%;
+  width: 50px;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 30px; }
+
+.fa-sharp {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1); }
+
+.search-button i {
+  color: #2d6a56; }
+
+.search-button:hover i {
+  color: white; }
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: black;
+  position: relative;
+  left: 10%; }
+
+img {
+  float: right;
+  margin-top: -20%;
+  margin-right: -25%;
+  width: 75%;
+  height: 75%; }
