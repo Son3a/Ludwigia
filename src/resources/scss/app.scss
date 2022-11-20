@@ -1,9 +1,12 @@
+
 .infor {
     position: relative;
     left: 100px;
     width: auto;
     height: auto;
     background-color: aquamarine;
+    top: -40px;
+    // background-image: url("gioithieu.png");
 }
 
 h1 {
@@ -26,12 +29,44 @@ b {
 
 .search_div {
     position: absolute;
-    top: 400px;
+    top: 440px;
     left: 80px;
 }
 
 .link_div {
     position: absolute;
+    top: 520px;
+    font-family: 'Arial';
+    left: -150px;
+}
+
+.link_div a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    // font-weight: 200px;
+
+}
+
+.link_div li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+#gioithieu {
+    // background-size: 500px 500px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 450px 80px;
+    padding: 30px 250px 30px 50px; //top-right-bottom-left
+
+}
+
+#lienhe{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px 80px;
+    padding: 30px 250px 30px 50px; //top-right-bottom-left
 }
 
 .search-input {
@@ -42,10 +77,9 @@ b {
     height: 20px;
     display: block;
     border-radius: 25px;
-    font-size: 13px;
     padding: 13px 45px 13px 25px;
     border-width: 6px;
-    font-size: 17px;
+    font-size: 20px;
     border-color: rgb(45, 106, 86);
 }
 
@@ -78,7 +112,7 @@ b {
 }
 
 .search-button:hover i {
-    color: white;
+    color: rgb(22, 47, 39);
 }
 
 ::-webkit-input-placeholder {
@@ -94,4 +128,5 @@ img {
     margin-right: -23%;
     width: 75%;
     height: 75%;
+    object-fit: contain;
 }

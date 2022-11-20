@@ -3,7 +3,8 @@
   left: 100px;
   width: auto;
   height: auto;
-  background-color: aquamarine; }
+  background-color: aquamarine;
+  top: -40px; }
 
 h1 {
   position: absolute;
@@ -22,11 +23,35 @@ b {
 
 .search_div {
   position: absolute;
-  top: 400px;
+  top: 440px;
   left: 80px; }
 
 .link_div {
-  position: absolute; }
+  position: absolute;
+  top: 520px;
+  font-family: 'Arial';
+  left: -150px; }
+
+.link_div a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px; }
+
+.link_div li {
+  list-style-type: none;
+  margin-bottom: 30px; }
+
+#gioithieu {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 450px 80px;
+  padding: 30px 250px 30px 50px; }
+
+#lienhe {
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 300px 80px;
+  padding: 30px 250px 30px 50px; }
 
 .search-input {
   position: absolute;
@@ -36,10 +61,9 @@ b {
   height: 20px;
   display: block;
   border-radius: 25px;
-  font-size: 13px;
   padding: 13px 45px 13px 25px;
   border-width: 6px;
-  font-size: 17px;
+  font-size: 20px;
   border-color: #2d6a56; }
 
 .search-input:focus {
@@ -67,7 +91,7 @@ b {
   color: #2d6a56; }
 
 .search-button:hover i {
-  color: white; }
+  color: #162f27; }
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -80,4 +104,5 @@ img {
   margin-top: -20%;
   margin-right: -23%;
   width: 75%;
-  height: 75%; }
+  height: 75%;
+  object-fit: contain; }
